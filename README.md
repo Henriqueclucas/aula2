@@ -1,19 +1,19 @@
 # Aula 2 - Introdução a Janelas
 Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
 
-## Tarefa 1 - JFrame - Tamanho da janela
+### Tarefa 1 - JFrame - Tamanho da janela
 1.1 Altere o tamanho da janela de 400x300 para 300x400. Clique e arraste para alterar.
 * Defina a propriedade preferredSize para o mesmo tamanho.
 * No construtor da classe (JFrameCustomizadoView()), inclua o código para centralizar a janela conforme trecho a seguir:
 <code>setLocationRelativeTo(null);</code>
 
-## Tarefa 2 - Painéis
+### Tarefa 2 - Painéis
 * Adicione um painel (JPanel) ao formulário contendo dois rótulos (JLabel), sendo Nome e E-mail.
 * Adicione um campo de texto (JTextField) para cada rótulo. 
 * Altere a propriedade **borda** do painel para **"Borda com título"**. Defina o título como **"Dados do Cliente"**
 * Altere o fundo do painel para branco
 * Utilize o protótipo a seguir como referência <br />
-![Formulário (JFrame) com 1 painel (JPanel)](aula2_PainelPrototipo.png)
+![Formulário (JFrame) com 1 painel (JPanel)](prototipos/aula2_PainelPrototipo.png)
 
 * Adicione uma classe "Main" ao projeto. 
 * Defina a aparência padrão para WindowsLookAndFeel. Utilize a dica do IDE e Circunde a instrução com try-catch.
@@ -25,7 +25,7 @@ Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
   telaInicial.setVisible(true);
 ```
 
-## Tarefa 3 - Caixas de Diálogo
+### Tarefa 3 - Caixas de Diálogo
 * Adicione um painel (JPanel) ao JFrame **"ExemploDialogosView"**
 - Adicione 5 botões a este painel:
   - Botão "Alerta" e implemente o seguinte código ao clicá-lo <br />
@@ -54,4 +54,4 @@ Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
     ```
     
 - Utilize o protótipo a seguir como referência <br />
-![Intro Caixas de Dialogo](aula2_CaixasDialogoPrototipo.png)
+![Intro Caixas de Dialogo](prototipos/aula2_CaixasDialogoPrototipo.png)
