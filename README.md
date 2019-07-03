@@ -38,14 +38,14 @@ Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
     `String retorno = JOptionPane.showInputDialog(null, "Digite seu nome:");`
     - Botão "Opções" e implemente o seguinte código ao clicá-lo <br />
     ```
-    int escolha = JOptionPane.showOptionDialog(null,    //Componente pai
+    int escolha = JOptionPane.showOptionDialog(null,            //Componente pai
                                "Qual sistema de medidas usar?", //mensagem,
-                               "Escolha uma opção", //Título
-                               JOptionPane.YES_NO_OPTION, //int optionType
+                               "Escolha uma opção",             //Título
+                               JOptionPane.YES_NO_OPTION,       //int optionType
                                JOptionPane.INFORMATION_MESSAGE, //Tipo de Mensagem
-                               null, //Icon icon,
-                               new Object[]{"Km","Milhas","Polegadas","Jardas"}, //Object[] opções,
-                               "Km");//Object initialValue 
+                               null,                            //Icon icon
+                               new Object[]{"Km","Milhas","Polegadas","Jardas"},  //Object[] opções,
+                               "Km");                                             //Object initialValue 
     ```
     - Botão "Chamar JDialog" com o seguinte código:
     ```
