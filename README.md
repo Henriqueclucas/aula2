@@ -10,6 +10,7 @@ Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
 ### Tarefa 2 - Painéis
 * Adicione um painel (JPanel) ao formulário contendo dois rótulos (JLabel), sendo Nome e E-mail.
 * Adicione um campo de texto (JTextField) para cada rótulo. 
+* Altere o título do formulário para **"aula2"**.
 * Altere a propriedade **borda** do painel para **"Borda com título"**. Defina o título como **"Dados do Cliente"**
 * Altere o fundo do painel para branco
 * Utilize o protótipo a seguir como referência <br />
