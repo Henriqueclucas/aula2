@@ -16,10 +16,10 @@ Objetivo: Apresentar o funcionamento e os tipos de janelas no Netbeans
 * Utilize o protótipo a seguir como referência <br />
 ![Formulário (JFrame) com 1 painel (JPanel)](prototipos/aula2_PainelPrototipo.png)
 
-* Adicione uma classe "Main" ao projeto. 
-* Defina a aparência padrão para WindowsLookAndFeel. Utilize a dica do IDE e Circunde a instrução com try-catch.
+* Na classe "Main" do projeto:
+  * Defina a aparência padrão para WindowsLookAndFeel. Utilize a dica do IDE e Circunde a instrução com try-catch.
 <code>UIManager.setLookAndFeel(new WindowsLookAndFeel());</code>
-* Crie um objeto do JFrame e abra-o maximizado.
+  * Crie um objeto do JFrame e abra-o maximizado.
 ```
   JFrameCustomizadoView telaInicial = new JFrameCustomizadoView();
   telaInicial.setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
